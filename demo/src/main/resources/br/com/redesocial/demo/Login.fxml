@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.redesocial.demo.LoginController">
+    <TextField fx:id="txtEmail" promptText="Email"/>
+    <PasswordField fx:id="txtSenha" promptText="Senha"/>
+    <Button text="Login" onAction="#handleLoginAction"/>
+    <Label fx:id="lblStatus"/>
+    <Label fx:id="errorLabel" text="E-mail ou senha incorretos" visible="false" textFill="red"/>
+</VBox>
